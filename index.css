@@ -30,39 +30,55 @@ body{
 	color: black;
   }
 
+  .nav-header{
+	margin:2% auto;
+  }
+
 nav a{
-	padding: 5px 30px;
+	
 	background: lightgray;
-	border: 1px solid gray;
-	margin: 20px;
-	border-radius: 5px; /* helps round the edges so it's not so "boxy"*/
+	border: 1px solid white;
+	
+	border-radius: 10px; /* helps round the edges so it's not so "boxy"*/
 	display: inline-block;
-	color: black;
+	color:white;
 	text-decoration: none;
+	width: 15%;
+	text-align: center;
+	font-family: 'Roboto Mono', arial;
 	
 }
 
-/*nav a .plan{
+.second-section{
+	margin: 2% auto;
+	width:90%;
+	background-color: coral;
+}
+
+.second-section p{
+	padding: 2%;
+}
+
+.plan{
+	background-color: #FF764E;
+}
+
+.learn{
+	background-color: #5ED3EB;
+}
+
+.involved{
+	background-color: #FFCD69;
+}
+
+.plan:hover{
 	
 }
 
-nav a .learn{
+.learn:hover{
 
 }
 
-nav a .involved{
+.involved:hover{
 
 }
-
-nav a .plan:hover{
-	
-}
-
-nav a .learn:hover{
-
-}
-
-nav a .involved:hover{
-
-}
-*/
