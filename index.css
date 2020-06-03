@@ -9,7 +9,60 @@
 
 }
 
-.header-img {
-    border-radius: 30px;
+.header-img .header {
+	width: 30%;
+	border-radius: 50%;
+	display:inline-block;
 }
 
+.heading{
+	width: 50%;
+	display:inline-block;
+}
+.heading h1 {
+
+	font-family: 'Chelsea Market', arial;
+	display:block;
+}
+
+body{
+	background-color: white;
+	color: black;
+  }
+
+nav a{
+	padding: 5px 30px;
+	background: lightgray;
+	border: 1px solid gray;
+	margin: 20px;
+	border-radius: 5px; /* helps round the edges so it's not so "boxy"*/
+	display: inline-block;
+	color: black;
+	text-decoration: none;
+	
+}
+
+/*nav a .plan{
+	
+}
+
+nav a .learn{
+
+}
+
+nav a .involved{
+
+}
+
+nav a .plan:hover{
+	
+}
+
+nav a .learn:hover{
+
+}
+
+nav a .involved:hover{
+
+}
+*/
